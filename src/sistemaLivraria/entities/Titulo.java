@@ -1,6 +1,6 @@
 package sistemaLivraria.entities;
 
-class Titulo {
+public class Titulo {
     protected String nome;
     protected String editora;
     protected double preco;

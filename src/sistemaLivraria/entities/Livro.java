@@ -1,6 +1,6 @@
 package sistemaLivraria.entities;
 
-class Livro extends Titulo {
+public class Livro extends Titulo {
     private String autor;
     private String resumo;
     private String area;
