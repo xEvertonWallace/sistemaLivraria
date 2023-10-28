@@ -1,4 +1,4 @@
-package sistemaLivraria.entities;
+package sistemaLivraria;
 
 public class Revista extends Titulo {
     private String periodicidade;
@@ -8,8 +8,13 @@ public class Revista extends Titulo {
         this.periodicidade = periodicidade;
     }
 
-    public void exibirInformacoes() {
-        super.exibirInformacoes();
-        System.out.println("Periodicidade: " + periodicidade);
-    }
+	public String getPeriodicidade() {
+		return periodicidade;
+	}
+
+	public void setPeriodicidade(String periodicidade) {
+		this.periodicidade = periodicidade;
+	}
+    
+    
 }
