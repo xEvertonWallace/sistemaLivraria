@@ -6,15 +6,14 @@ public class Livro {
 	private String editora;
 	private String resumo;
 	private double preco;
-	private String area;
 
-	public Livro(String nome, String autorPrincipal, String editora, String resumo, double preco, String area) {
+	public Livro(String nome, String autorPrincipal, String editora, String resumo, double preco) {
 		this.nome = nome;
 		this.autorPrincipal = autorPrincipal;
 		this.editora = editora;
 		this.resumo = resumo;
 		this.preco = preco;
-		this.area = area;
+
 	}
 
 	public String getNome() {
@@ -25,9 +24,7 @@ public class Livro {
 		return preco;
 	}
 
-	public String getArea() {
-		return area;
-	}
+	
 
 	public double calcularPrecoFinal() {
 		double iss = 0;
